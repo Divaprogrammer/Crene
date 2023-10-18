@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
 <head>
-<title>Simple Magazine</title>
+<title>Simple Magazine - Style Demo</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
@@ -42,8 +42,8 @@
         </div>
         <div id="sub-nav">
           <ul class="tabbed">
-            <li class="current-tab"><a href="#">Frontpage</a></li>
-            <li><a href="style-demo.html">Style Demo</a></li>
+            <li><a href="#">Frontpage</a></li>
+            <li class="current-tab"><a href="style-demo.html">Style Demo</a></li>
             <li><a href="two-columns.html">Two Columns</a></li>
             <li><a href="single-column.html">Single Column</a></li>
             <li><a href="archives.html">Archives</a></li>
@@ -56,44 +56,103 @@
     <div class="main" id="main-three-columns">
       <div class="left" id="main-left">
         <div class="post">
-          <div class="post-title">
-            <h2><a href="#">Template Information</a></h2>
-          </div>
-          <div class="post-date">18:11, Sunday, August 2, 2009 by Viktor Persson</div>
           <div class="post-body">
-            <p><a href="#"><img src="news-image-big.jpg" alt="" class="bordered" /></a></p>
-            <p class="large">This is a free website template by Arcsin, built using tableless XHTML and CSS.</p>
-            <p>This template is distributed under a Creative Commons Attribution 2.5 License, which allows you to use and modify it for any purpose (personal and commercial), under the condition that you keep the provided credit links in the footer.</p>
-            <p>The latest template version and CMS conversions for platforms such as WordPress and Blogger can be found at the official Simple Magazine website template page.</p>
-            <p>For more templates, questions and comments please visit Arcsin Web Templates.</p>
-            <a href="#" class="more">Read more &#187;</a> </div>
-        </div>
-        <div class="content-separator"></div>
-        <div class="col3 left">
-          <div class="column-content">
-            <div class="post">
-              <p><a href="#"><img src="news-image-med-1.jpg" alt="" class="bordered" /></a></p>
-              <h4><a href="#">Curabitur justo arcu</a></h4>
-              Bibendum at bibendum in, semper nec ibh. </div>
+            <h1>Heading 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h4>Heading 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h5>Heading 5</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h6>Heading 6</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="content-separator"></div>
+            <h2>Images in text</h2>
+            <p>Curabitur faucibus risus quis lectus. <a href="#">Donec vehicula</a>. Pellentesque nec, lectus. Nullam dictum sem. Phasellus varius. Vestibulum in felis in mauris consequat molestie</p>
+            <img src="sample-thumbnail.jpg" width="75" height="75" alt="" class="alignleft" />
+            <p>Consectetur adipiscing elit. In nisi. Duis condimentum est nec augue blandit scelerisque. Phasellus varius. Vestibulum in felis in mauris consequat molestie. Sem nec pellentesque condimentum, turpis massa ultricies nisi, at molestie justo eros ac velit.</p>
+            <img src="sample-thumbnail.jpg" width="75" height="75" alt="" class="alignright" />
+            <p>Curabitur euismod mi ac neque. Cras vel tortor molestie <a href="#">tortor luctus</a> facilisis. Nulla a nunc. Vivamus est. Integer ac sem quis ipsum dignissim sodales. Nam pulvinar sem eu nibh. Suspendisse non nulla et ligula bibendum facilisis. Suspendisse potenti. Vivamus leo.</p>
+            <p>Nulla lacus tortor, ornare vitae, vulputate vitae, sed quis magna. Pellentesque urna urna, bibendum non, ornare in, sollicitudin quis, est.</p>
+            <div class="clearer">&nbsp;</div>
+            <div class="content-separator"></div>
+            <h2>Messages</h2>
+            <div class="success">Success!</div>
+            <div class="notice">Notice</div>
+            <div class="error">Error..</div>
+            <div class="content-separator"></div>
+            <h2>Blockquote</h2>
+            <blockquote>
+              <p>Praesent orci nisi, interdum quis, tristique vitae, consectetur sed, arcu. Ut at sapien non dolor semper sollicitudin. Etiam semper erat quis odio. Quisque commodo suscipit velit. Nulla facilisi.</p>
+              <p><cite>- Duis justo quam</cite></p>
+            </blockquote>
+            <div class="content-separator"></div>
+            <h2>Lists</h2>
+            <h3>Unsorted list</h3>
+            <ul>
+              <li>Blandit in, interdum a</li>
+              <li>Ultrices non lectus</li>
+              <li>Nunc id odio</li>
+              <li>Fusce ultricies</li>
+            </ul>
+            <h3>Ordered list</h3>
+            <ol>
+              <li>Blandit in, interdum a</li>
+              <li>Ultrices non lectus</li>
+              <li>Nunc id odio</li>
+              <li>Fusce ultricies</li>
+            </ol>
+            <h3>Definition list</h3>
+            <dl>
+              <dt>title</dt>
+              <dd>definition</dd>
+              <dd>definition</dd>
+              <dt>title</dt>
+              <dt>title</dt>
+              <dd>definition</dd>
+              <dt>title</dt>
+              <dd>definition</dd>
+            </dl>
+            <div class="content-separator"></div>
+            <h2>Tables</h2>
+            <h3>Data table</h3>
+            <table class="data-table">
+              <tr>
+                <th>Property 1</th>
+                <th>Property 2</th>
+                <th>Property 3</th>
+                <th>Property 4</th>
+              </tr>
+              <tr class="even">
+                <td>Value 1.1</td>
+                <td>Value 1.2</td>
+                <td>Value 1.3</td>
+                <td>Value 1.4</td>
+              </tr>
+              <tr>
+                <td>Value 2.1</td>
+                <td>Value 2.2</td>
+                <td>Value 2.3</td>
+                <td>Value 2.4</td>
+              </tr>
+              <tr class="even">
+                <td>Value 3.1</td>
+                <td>Value 3.2</td>
+                <td>Value 3.3</td>
+                <td>Value 3.4</td>
+              </tr>
+              <tr>
+                <td>Value 4.1</td>
+                <td>Value 4.2</td>
+                <td>Value 4.3</td>
+                <td>Value 4.4</td>
+              </tr>
+            </table>
           </div>
         </div>
-        <div class="col3 col3-mid left">
-          <div class="column-content">
-            <div class="post">
-              <p><a href="#"><img src="news-image-med-2.jpg" alt="" class="bordered" /></a></p>
-              <h4><a href="#">Donec sodales</a></h4>
-              Duis risus lectus, gravida eu scelerisque. </div>
-          </div>
-        </div>
-        <div class="col3 right">
-          <div class="column-content">
-            <div class="post">
-              <p><a href="#"><img src="news-image-med-3.jpg" alt="" class="bordered" /></a></p>
-              <h4><a href="#">Donec rhoncus</a></h4>
-              Donec eget congue libero. </div>
-          </div>
-        </div>
-        <div class="clearer">&nbsp;</div>
       </div>
       <div class="left sidebar" id="sidebar-1">
         <div class="post">
